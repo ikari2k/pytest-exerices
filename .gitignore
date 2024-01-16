@@ -2,3 +2,4 @@
 *.pyc
 .DS_Store
 log/pytesting.log
+.idea/*
