@@ -1,7 +1,8 @@
 from utils.my_utils import getAPIData
+from utils.congigParser import *
 import requests,json, pytest
 
-baseURI = 'https://petstore.swagger.io/v2/pet/'
+baseURI = getPetAPIURL()
 petID = '191'
 
 # test valid response or response is not empty
